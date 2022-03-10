@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+   <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatiable"content="if-edge">
+        <title></title>
+        <style type="text/css" media="screen">
+            body{
+                background-color: darkcyan;
+                box-sizing: border-box;
+            }
+             h6{
+               text-align: center;
+                color: darkblue;
+            }
+            .mobile{
+                margin-top:20px;
+                border:2px solid black;
+                border-radius:10px;
+                width:180px;
+                background-color:burlywood;
+                margin-left:410px;
+                padding-right: 20px;
+            }
+            hr{
+                margin-right:260px;
+            }
+           .first input{
+                border-radius:25px;
+                border:none;
+                outline:none;
+                width:50px;
+            }
+            .second input{
+                border:none;
+                outline:none;
+                background: none;
+                border-radius:25px;
+                background-color: aqua;
+                margin-right:6px;
+                margin-top:5px;
+           
+            }
+            .third input{
+                border:none;
+                outline:none;
+                background: none;
+                border-radius:25px;
+                background-color: aqua;
+                margin-right:7px;
+                margin-top:7px;
+           
+            }
+             .four input{
+                border:none;
+                outline:none;
+                background: none;
+                border-radius:25px;
+                background-color: aqua;
+                margin-right:8px;
+                margin-top:7px;
+            
+            }
+             .five input{
+                border:none;
+                outline:none;
+                background: none;
+                border-radius:25px;
+                background-color: aqua;
+                margin-right:7px;
+                margin-top:7px;
+            
+            }
+              .six input{
+                border:none;
+                outline:none;
+                background: none;
+                border-radius:25px;
+                background-color: aqua;
+                margin-right:7px;
+                margin-top:7px;
+             
+            }
+            .first , .second, .third, .four, .five, .six{
+                margin-left:10px;
+                margin-top:4px;
+                margin-bottom:5px;
+            }
+            .scrn{
+                margin-left:10px;
+                margin-top:10px;
+                
+            }
+            .scrn input{
+                border-radius: 20px;
+                border:2px solid darkblue;
+                color:white;
+                font-size:15px;
+                height:30px;
+                padding-left: 5px;
+                background-color: deeppink;
+               width : 170px;
+                text-transform: capitalize;
+            }
+        </style>
+       </head>
+        <body>
+
+            <div class="mobile">
+             <form action=" " name="mobile">
+                 <div class="scrn"><input type="text" name="screen" placeholder="Write your name"></div>
+                 <hr>
+                 <div class="first">
+                     <input type="button" value="CE"  onclick="mobile.screen.value=''">
+                     <input type="button" value="&larr;" style="margin-left:50px" onclick="mobile.screen.value= mobile.screen.value.slice(0,-1)"><br/>
+                 </div>
+                 <div class="second">
+                   
+                     <input type="button" value="a" onclick="mobile.screen.value += 'a' ">
+                      <input type="button" value="b" onclick="mobile.screen.value+='b'">
+                     <input type="button" value="c"  onclick="mobile.screen.value+='c'">
+                     <input type="button" value="d"  onclick="mobile.screen.value+='d'">
+                     <input type="button" value="e"  onclick="mobile.screen.value+='e'">
+                 </div>
+                 <div class="third">
+                     <input type="button" value="f" onclick="mobile.screen.value += 'f'">
+                      <input type="button" value="g " onclick="mobile.screen.value+='g'">
+                     <input type="button" value="h "  onclick="mobile.screen.value+='h'">
+                     <input type="button" value="i "  onclick="mobile.screen.value+='i'">
+                     <input type="button" value="j "  onclick="mobile.screen.value+='j'">
+                 </div>
+                 <div class="four">
+                     <input type="button" value="k" onclick="mobile.screen.value += 'k'">
+                      <input type="button" value="l" onclick="mobile.screen.value+='l'">
+                     <input type="button" value="m"  onclick="mobile.screen.value+='m'">
+                     <input type="button" value="n"  onclick="mobile.screen.value+='n'">
+                     <input type="button" value="o"  onclick="mobile.screen.value+='o'">
+                 </div>
+                  <div class="four">
+                     <input type="button" value="p" onclick="mobile.screen.value += 'p'">
+                      <input type="button" value="q" onclick="mobile.screen.value+='q'">
+                     <input type="button" value="r"  onclick="mobile.screen.value+='r'">
+                     <input type="button" value="s"  onclick="mobile.screen.value+='s'">
+                     <input type="button" value="t"  onclick="mobile.screen.value+='t'">
+                 </div>
+                 <div class="five">
+                     <input type="button" value="u" onclick="mobile.screen.value += 'u'">
+                      <input type="button" value="v" onclick="mobile.screen.value+='v'">
+                     <input type="button" value="w"  onclick="mobile.screen.value+='w'">
+                     <input type="button" value="x"  onclick="mobile.screen.value+='x'">
+                     <input type="button" value="y"  onclick="mobile.screen.value+='y'">
+                     
+                 </div>
+                 <div class="six">
+                      <input type="button" value="z"  onclick="mobile.screen.value+='z'">
+                      <input type="button" value="Space"  onclick="mobile.screen.value+=' '">
+                 </div>
+             </form>
+            </div>
+        </body>
+</html>
